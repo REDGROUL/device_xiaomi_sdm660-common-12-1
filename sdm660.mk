@@ -398,6 +398,9 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
