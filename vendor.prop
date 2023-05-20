@@ -108,6 +108,11 @@ vendor.gralloc.enable_fb_ubwc=1
 ro.hardware.egl=adreno
 ro.hardware.vulkan=sdm660
 
+# Graphics
+debug.renderengine.backend=skiaglthreaded
+debug.hwui.renderer=skiagl
+renderthread.skia.reduceopstasksplitting=true
+
 # DRM Service
 drm.service.enabled=true
 media.mediadrmservice.enable=true
